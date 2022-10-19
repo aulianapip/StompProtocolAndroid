@@ -7,7 +7,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.android.tools.build:gradle:7.0.4'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         classpath 'org.codehaus.groovy:groovy-android-gradle-plugin:2.0.0'
     }
@@ -19,10 +19,8 @@ repositories {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'groovyx.android'
 
-group='com.github.NaikSoftware'
+group='com.github.aulianapip'
 
 android {
     compileSdkVersion 28
